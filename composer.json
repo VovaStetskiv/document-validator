@@ -1,0 +1,17 @@
+{
+    "name": "app/document-validator",
+    "description": "Document validator interview task",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
